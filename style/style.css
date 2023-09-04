@@ -64,12 +64,35 @@ main figure.tim-figures figcaption div.secondary-writing{
 main section{
     margin-top:40px;
 }
-
+/* paragrafo 1 */
 main section.paragraph span.marked{
     background-color: #fefe00;
 }
-
+/* lista */
 main section.list{
-    margin: 0;
-    padding: 40px;
+    padding:0 40px;
 }
+/* tabella */
+
+main section table thead th{
+    color: white;
+    background-color: rgb(32, 169, 229);
+}
+
+main section table td{
+    width: 25%;
+}
+
+main section table td.big,th.big{
+    width: 50%;
+}
+
+main section table tbody tr{
+    background-color: rgb(177, 229, 242);
+}
+
+main section table tbody tr:nth-child(even){
+    background-color: white
+} 
+
+
