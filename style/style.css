@@ -47,7 +47,7 @@ a:visited{
     color: #3cb3e8
 }
 
-main header time{
+main header time.secondary-writing{
     color: #828282;
     font-size: 10px;
 }
@@ -64,8 +64,9 @@ main figure.tim-figures figcaption div.secondary-writing{
 main section{
     margin-top:40px;
 }
-/* paragrafo 1 */
-main section.paragraph span.marked{
+/* paragrafo 1 e 2 */
+
+main section span.marked{
     background-color: #fefe00;
 }
 /* lista */
@@ -94,5 +95,28 @@ main section table tbody tr{
 main section table tbody tr:nth-child(even){
     background-color: white
 } 
+/* inizio footer  */
+footer{
+    margin-top: 40px;
+}
 
+footer span.secondary-writing{
+    color: #828282;
+    margin: 5px;
+}
 
+footer figure div{
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer figure div.monitor-img{
+    background-image: url(../img/monitor.jpg);
+}
+
+footer figure div.graph-img{
+    background-image: url(../img/graph.jpg);
+}
