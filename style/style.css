@@ -28,3 +28,16 @@ body>header{
     bottom: 0;
 }
 
+
+main header .secondary-writing{
+    color: #828282;
+}
+
+a{
+    text-decoration: none;
+}
+
+main header time{
+    color: #828282;
+    font-size: 10px;
+}
