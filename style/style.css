@@ -7,7 +7,7 @@
 body{
     height: 100%;
 }
-
+/* inizio header */
 body>header{
     background-image: url(../img/pattern.png);
     width: 100%;
@@ -27,31 +27,49 @@ body>header{
     left:0;
     bottom: 0;
 }
-
+/* inizio main */
 main{
+    padding: 10px;
     position: relative;
 }
-
+/* inizio main header  */
 main header .secondary-writing{
     color: #828282;
 }
 
 a{
     text-decoration: none;
+    color: #3cb3e8
+}
+
+a:visited{
+    text-decoration: none;
+    color: #3cb3e8
 }
 
 main header time{
     color: #828282;
     font-size: 10px;
 }
-
-
-
-main figure.tim-figures img{
+/* inizio immagini main (figure) */
+ main figure.tim-figures img{
     width: 35%
 }
 
 main figure.tim-figures figcaption div.secondary-writing{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
+}
+/* inizio main section   */
+main section{
+    margin-top:40px;
+}
+
+main section.paragraph span.marked{
+    background-color: #fefe00;
+}
+
+main section.list{
+    margin: 0;
+    padding: 40px;
 }
